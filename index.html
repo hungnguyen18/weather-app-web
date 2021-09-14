@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời tiết hôm nay</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/all.min.js"></script>
+    <script src="js/moment.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="search-bar">
+                <i class="fas fa-search icon"></i>
+                <input type="text" name="" id="search-input" class="search-input" placeholder="Tìm kiếm thành phố">
+            </div>
+            <div class="info-weather">
+                <div id="name-city">Biên Hòa</div>
+                <div id="status">Nắng nhẹ</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" id="img-weather" alt="">
+                <div id="temperature">30</div>
+            </div>
+        </div>
+        <div class="main-second">
+            <div class="row">
+                <div class="colum">
+                    <div class="name-value" id="name-value">MT mọc</div>
+                    <div class="value" id="sunrise">633</div>
+                </div>
+                <div class="colum">
+                    <div class="name-value" id="name-value">MT lặn</div>
+                    <div class="value" id="sunset">1746</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="colum">
+                    <div class="name-value" id="name-value">Độ ẩm</div>
+                    <div class="value"><span id="humidity">88</span>%</div>
+                </div>
+                <div class="colum">
+                    <div class="name-value" id="name-value">Gió</div>
+                    <div class="value"><span id="wind-speed">11.12</span> km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
